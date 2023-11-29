@@ -102,7 +102,7 @@ body{
   margin-top: -4%;
   text-align: center;
   color: #FFFFFF;
-}
+} 
 
 @media only screen and (max-width: 520px) {
   .dire {
@@ -209,7 +209,7 @@ body{
 }
 
 /* For screens with a width larger than 900px */
-@media only screen and (min-width: 620px) {
+@media only screen and (min-width: 720px) {
   
   .surprise {
     width: 80%;

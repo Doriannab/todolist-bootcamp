@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 
 const AddTaskForm = ({ onAdd }) => {
-  const [newTask, setNewTask] = useState('');
+  const [newTask, setNewTask] = useState(''); 
 
   const handleAddTask = () => {
     if (newTask.trim() !== '') {
