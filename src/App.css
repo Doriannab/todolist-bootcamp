@@ -1,0 +1,257 @@
+body{
+  width: 100%;
+  height: 100%;
+  top: -513px;
+  left: -891px;
+  background: #2C2C2C;
+}
+
+.titre{
+  font-family: Racing Sans One;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 81px;
+  /* letter-spacing: 0em; */
+  margin-top: -10%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.image{
+  width: 340px;
+  height: 185px;
+  top: 15px;
+  margin-left: 16px;
+  border-radius: 5px;
+}
+
+.dire{
+ width: 50%;
+ margin-top: 3%;
+}
+
+.add-task-form{
+  text-align: center;
+}
+
+.input{
+  width: 840px;
+  height: 45px;
+  border-radius: 20px;
+  background: #D9D9D9;
+  margin: 15px;
+  margin-right: 20px;
+  font-size: 22px;
+}
+
+.button{
+  width: 140px;
+  height: 55px;
+  margin-left: -120px;
+  color: #fff;
+  font-size: 18px;
+  border: 2px solid gray;
+  text-align: center;
+  border-radius: 20px;
+  background: #4F4F4F;
+  font-family: Racing Sans One;
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.surprise{
+  border: 2px solid #222222;
+  width: 822px;
+  height: 38px;
+  top: 401px;
+  left: 303px;
+  text-align: left;
+  border-radius: 10px;
+  margin-left: 15%;
+  margin-top: 5%;
+  font-size: 20px;
+  color: #fff;
+  background: #222222;
+
+
+}
+
+.dar{
+  border: 2px solid #222222;
+  width: 40px;
+  height: 40px;
+  margin-bottom:-1px;
+  background: white;
+  margin-left: -34px;
+  border-radius: 10px;
+
+}
+
+.del{
+  width: 100%;
+}
+
+.crise{
+  font-family: Racing Sans One;
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 81px;
+  /* letter-spacing: 0em; */
+  margin-top: -4%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+@media only screen and (max-width: 600px) {
+  .dire {
+    width: 100%;
+    display: flex;
+  }
+
+  body{
+    width: 100%;
+  }
+
+  .button{
+    font-size: 20px;
+   height: 50px;
+   top: 10px;
+   text-align:Center;
+   border: none;
+   
+  }
+
+  .input,
+  .button,
+  .surprise {
+    width: 20%;
+  }
+  .image {
+    max-width: 100%;
+    margin-left: 150px;
+  }
+
+  .titre{
+    font-size: 50px;
+    margin: 3px;
+  }
+
+  
+
+  
+.input{
+  width: 450px;
+  height: 39px;
+  border-radius: 20px;
+  background: #D9D9D9;
+  margin: 20px;
+  margin-right: 20px;
+}
+
+  
+
+  body{
+    font-size: 18px;
+  }
+
+  .dar{
+    width: 60PX;
+    height: 55PX;
+    border-radius: 10px;
+    background: #D9D9D9;
+    margin: 15px;
+    margin-top: 12px;
+    margin-left: -40px;
+  }
+  .surprise{
+    width: 700px;
+    height: 50px;
+    margin-top: 12px;
+    margin-left: 20px;
+  }
+
+  .surprie{
+    display: flex;
+    line-height: 20px;
+    padding: 20px;
+  }
+
+  .dire{
+    width: 90%;
+  }
+  
+
+ 
+}
+
+/* For screens with a width between 601px and 900px */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .input,
+  .button,
+  .surprise {
+    width: 30%;
+  }
+
+  .image {
+    margin-left: 100px; /* Adjust as needed */
+  }
+
+  .titre {
+    font-size: 40px;
+  }
+
+  .dar {
+    width: 80px;
+    margin-left: -30px; /* Adjust as needed */
+  }
+}
+
+/* For screens with a width larger than 900px */
+@media only screen and (min-width: 901px) {
+  
+  .surprise {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .input{
+    width: 80%;
+
+  }
+
+  .button{
+
+  }
+
+  .image {
+    margin-left: 50px; /* Adjust as needed */
+  }
+
+  .titre {
+    font-size: 50px;
+    margin-left: 25%;
+  }
+
+  .dar {
+    width: 4%;
+    margin-left: -20px; /* Adjust as needed */
+  }
+  .dire{
+    width: 90%;
+  }
+
+  .crise{
+    font-family: Racing Sans One;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 81px;
+    margin-top: -4%;
+    text-align: center;
+    margin-left: 22%;
+    color: #FFFFFF;
+  }
+}
+
+
